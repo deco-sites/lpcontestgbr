@@ -213,6 +213,9 @@
     "sections": [
       {
         "__resolveType": "Footer"
+      },
+      {
+        "__resolveType": "site/sections/Header/FixedMenu.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
