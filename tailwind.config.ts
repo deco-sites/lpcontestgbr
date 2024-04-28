@@ -4,5 +4,20 @@ export default {
   plugins: [daisyui],
   daisyui: { themes: [], logs: false },
   content: ["./**/*.tsx"],
-  theme: { container: { center: true } },
+  theme: {
+    container: { center: true },
+    colors: {
+      "theme-green": "#324028",
+      "theme-dark-brown": "#402D16",
+      "theme-light-brown": "#735C3F",
+      "theme-dark-beige": "#A6774E",
+      "theme-light-beige": "#D9B384",
+      "theme-gray": "#D9CDBF",
+      "theme-offwhite": "#FBF4ED"
+    },
+    fontFamily: {
+      'sans': ['Montserrat', 'sans-serif'],
+      'serif': ['Gilda Display', 'Georgia']
+    }
+  }
 };
