@@ -1,4 +1,7 @@
 {
+  "Footer": {
+    "__resolveType": "site/sections/Footer.tsx"
+  },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
     "buttonStyle": {
@@ -46,10 +49,10 @@
     },
     "mainColors": {
       "base-100": "#ffffff",
-      "primary": "#171717",
+      "primary": "#735C3F",
       "secondary": "#c7c7c7",
-      "tertiary": "#404040",
-      "neutral": "#333333",
+      "tertiary": "#D9B384",
+      "neutral": "#D9CDBF",
       "success": "#008060",
       "warning": "#ffc453",
       "error": "#d82c0d",
@@ -71,6 +74,13 @@
           "family": "Albert Sans"
         }
       ]
+    },
+    "complementaryColors": {
+      "base-content": "#A6774E",
+      "primary-content": "#000000",
+      "secondary-content": "#000000",
+      "tertiary-content": "#000000",
+      "neutral-content": "#324028"
     }
   },
   "Preview /sections/Footer.tsx": {
@@ -212,12 +222,13 @@
       "type": "website",
       "jsonLDs": [],
       "noIndexing": false,
-      "description": "Improve your page performance with deco.cx",
-      "titleTemplate": "%s | deco.cx",
-      "descriptionTemplate": "%s | Deco.cx",
+      "description": "Explore a variety of custom artworks and high-quality prints available for purchase. Order family portraits, original art, and more, tailored to your individual style and preferences.",
+      "titleTemplate": "Gabriel Antunes Arts",
       "title": "Start",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/d8489214-aa22-44ce-a9aa-7c1b9f8e5177",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/07fd7c67-11d2-43a2-a322-6ffd0fbcdee1"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/f0612869-02f2-468c-bd79-04426abe33de",
+      "themeColor": "#FBF4ED",
+      "descriptionTemplate": "%s"
     },
     "global": [
       {
@@ -238,10 +249,49 @@
     "__resolveType": "site/apps/site.ts",
     "firstByteThresholdMS": true,
     "theme": {
-      "__resolveType": "Neutral"
+      "__resolveType": "Old studio"
+    },
+    "abTesting": {
+      "replaces": [],
+      "includeScriptsToHead": {
+        "includes": []
+      }
     }
   },
-  "Footer": {
-    "__resolveType": "site/sections/Footer.tsx"
+  "Old studio": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.2s"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "300"
+            },
+            {
+              "weight": "200"
+            }
+          ],
+          "family": "Montserrat"
+        },
+        {
+          "variations": [
+            {
+              "weight": "400"
+            }
+          ],
+          "family": "Gilda Display"
+        }
+      ]
+    }
   }
 }
