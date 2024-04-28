@@ -229,10 +229,13 @@
         ]
       },
       {
-        "__resolveType": "Footer"
+        "__resolveType": "site/sections/Hero/Hero.tsx"
       },
       {
-        "__resolveType": "site/sections/Hero/Hero.tsx"
+        "__resolveType": "site/sections/Image/Slider.tsx"
+      },
+      {
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
