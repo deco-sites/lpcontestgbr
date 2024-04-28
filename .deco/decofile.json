@@ -212,10 +212,24 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "Footer"
+        "__resolveType": "site/sections/Header/FixedMenu.tsx",
+        "menus": [
+          {
+            "text": "Start",
+            "sectionId": " "
+          },
+          {
+            "text": "My work",
+            "sectionId": " "
+          },
+          {
+            "text": "Contact",
+            "sectionId": " "
+          }
+        ]
       },
       {
-        "__resolveType": "site/sections/Header/FixedMenu.tsx"
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
