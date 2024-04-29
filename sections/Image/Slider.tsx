@@ -1,10 +1,28 @@
-export interface SliderProps {
+import { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
 
+export interface SliderProps {
+    images: {
+        src: ImageWidget;
+        alt?: string;
+    }[]
 }
 
-function Slider() {
+function Slider({ images }: SliderProps) {
   return (
-    <h1>Slider</h1>
+    <div class="flex flex-row max-h-36 overflow-x-scroll overflow-y-hidden">
+        { images && images.map(image => (
+            <div class="w-72 h-36 flex justify-center items-center">
+                <Image
+                    class="max-w-none"
+                    src={image.src}
+                    alt={image.alt || `Gabriel's drawing`}
+                    width={300}
+                    height={160}
+                />
+            </div>
+        ))}
+    </div>
   )
 }
 
