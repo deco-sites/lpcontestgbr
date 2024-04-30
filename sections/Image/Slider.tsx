@@ -10,7 +10,7 @@ export interface SliderProps {
 
 function Slider({ images }: SliderProps) {
   return (
-    <div class="flex flex-row max-h-36 overflow-x-scroll overflow-y-hidden">
+    <div class="flex flex-row max-h-36 overflow-x-scroll overflow-y-hidden scrollbar-none">
         { images && images.map(image => (
             <div class="w-72 h-36 flex justify-center items-center">
                 <Image
