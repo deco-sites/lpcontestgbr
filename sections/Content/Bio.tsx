@@ -11,7 +11,7 @@ export interface SliderProps {
 
 function Bio({ bioText, image }: SliderProps) {
     return (
-        <article class="flex flex-col items-center gap-6 px-3 py-8 z-10 ">
+        <article class="flex flex-col items-center gap-6 px-4 py-8 z-10 ">
             <p
                 dangerouslySetInnerHTML={{ __html: bioText }}
                 class="text-theme-light-brown font-light"
