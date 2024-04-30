@@ -83,6 +83,42 @@
       "neutral-content": "#324028"
     }
   },
+  "Old studio": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.2s"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "300"
+            },
+            {
+              "weight": "200"
+            }
+          ],
+          "family": "Montserrat"
+        },
+        {
+          "variations": [
+            {
+              "weight": "400"
+            }
+          ],
+          "family": "Gilda Display"
+        }
+      ]
+    }
+  },
   "Preview /sections/Footer.tsx": {
     "__resolveType": "site/sections/Footer.tsx"
   },
@@ -265,6 +301,9 @@
         }
       },
       {
+        "__resolveType": "site/sections/Image/EaselGallery.tsx"
+      },
+      {
         "__resolveType": "Footer"
       }
     ],
@@ -309,42 +348,6 @@
       "includeScriptsToHead": {
         "includes": []
       }
-    }
-  },
-  "Old studio": {
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.2rem",
-      "--btn-focus-scale": "0.95",
-      "--animation-btn": "0.2s"
-    },
-    "font": {
-      "__resolveType": "website/loaders/fonts/googleFonts.ts",
-      "fonts": [
-        {
-          "variations": [
-            {
-              "weight": "400"
-            },
-            {
-              "weight": "300"
-            },
-            {
-              "weight": "200"
-            }
-          ],
-          "family": "Montserrat"
-        },
-        {
-          "variations": [
-            {
-              "weight": "400"
-            }
-          ],
-          "family": "Gilda Display"
-        }
-      ]
     }
   }
 }
