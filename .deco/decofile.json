@@ -334,8 +334,15 @@
           {
             "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/6fbe8296-ea3f-44a8-96f7-464a1d655955",
             "alt": "Woman"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/a919f726-b2f5-42e0-b03c-a9e8109fa4f8",
+            "alt": "Woman face"
           }
         ]
+      },
+      {
+        "__resolveType": "site/sections/Content/Services.tsx"
       },
       {
         "__resolveType": "Footer"
