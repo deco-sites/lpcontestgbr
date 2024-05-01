@@ -353,8 +353,8 @@
           }
         },
         "secondMenu": {
-          "title": "Prints",
-          "menuText": "Art prints",
+          "title": "Art prints",
+          "menuText": "Prints",
           "content": "Elevate your space with museum-quality prints of my artwork. Select from various sizes and premium materials to adorn your home or office with vibrant, high-definition reproductions of my original pieces.",
           "image": {
             "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/9d60d9b0-b524-4455-ac28-7df1228ff51a",
