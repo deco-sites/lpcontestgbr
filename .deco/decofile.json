@@ -338,6 +338,9 @@
         ]
       },
       {
+        "__resolveType": "site/sections/Content/Services.tsx"
+      },
+      {
         "__resolveType": "Footer"
       }
     ],
