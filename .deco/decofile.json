@@ -342,7 +342,34 @@
         ]
       },
       {
-        "__resolveType": "site/sections/Content/Services.tsx"
+        "__resolveType": "site/sections/Content/Services.tsx",
+        "firstMenu": {
+          "title": "Art Comissions",
+          "menuText": "Comissions",
+          "content": "Turn your imagination into reality with custom commissions. Collaborate  closely to bring your vision to life, tailored to your preferences and  style, for a truly unique masterpiece that speaks to you.\nYou can request a family portrait, a couple photo, portraits of your  pets, or even a fan art of an anime, series, or movie you like.\nThe price varies according to the number of elements depicted and the size of the artwork.",
+          "image": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/5d1d38af-2e39-49f3-a3eb-35a22a2e79ee",
+            "alt": "Flower in pointillism"
+          }
+        },
+        "secondMenu": {
+          "title": "Art prints",
+          "menuText": "Prints",
+          "content": "Elevate your space with museum-quality prints of my artwork. Select from various sizes and premium materials to adorn your home or office with vibrant, high-definition reproductions of my original pieces.",
+          "image": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/9d60d9b0-b524-4455-ac28-7df1228ff51a",
+            "alt": "Realistic eye drawing"
+          }
+        },
+        "thirdMenu": {
+          "title": "Original pieces",
+          "menuText": "Original pieces",
+          "content": "Indulge in the allure of exclusive, one-of-a-kind artworks. Each original piece is a testament to my artistic journey, imbued with passion, creativity, and a touch of the extraordinary, enriching any collection.",
+          "image": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/3cc6c1bd-6a7f-4a0d-bf9b-07cecf9d2c5f",
+            "alt": "Woman bust"
+          }
+        }
       },
       {
         "__resolveType": "Footer"
