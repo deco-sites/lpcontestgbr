@@ -19,6 +19,7 @@ export default {
         "theme-light-beige": "#D9B384",
         "theme-gray": "#D9CDBF",
         "theme-offwhite": "#FBF4ED",
+        "theme-easel-border": "#634B3D",
       },
     },
   },
