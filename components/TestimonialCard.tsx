@@ -23,7 +23,7 @@ function TestimonialCard({ image, autor, content}: TestimonialCardProps) {
                 />
             </div>
 
-            <p class="font-light text-sm text-theme-dark-brown">
+            <p class="font-light text-sm text-theme-dark-brown text-center">
                 {content}
             </p>
 
