@@ -400,6 +400,29 @@
         ]
       },
       {
+        "__resolveType": "site/sections/GetInTouch/GetInTouch.tsx",
+        "title": "Get in touch",
+        "subtitle": "Get in touch with me to explore more of my artwork. Follow me on Instagram or contact me directly via WhatsApp",
+        "options": [
+          {
+            "icon": "Instagram",
+            "text": "@gbr_antunes"
+          },
+          {
+            "icon": "WhatsApp",
+            "text": "(92)98269-1236"
+          },
+          {
+            "icon": "LinkedIn",
+            "text": "gabriel-antunes-tenorio"
+          },
+          {
+            "icon": "Email",
+            "text": "gbr.antunes@gmail.com"
+          }
+        ]
+      },
+      {
         "__resolveType": "Footer"
       }
     ],
