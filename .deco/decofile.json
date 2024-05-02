@@ -372,7 +372,14 @@
         }
       },
       {
-        "__resolveType": "site/sections/Content/Testimonials.tsx"
+        "__resolveType": "site/sections/Content/Testimonials.tsx",
+        "title": "Testimonials",
+        "subtitle": "What who have bought are saying",
+        "testimonialCards": [
+          {
+            "image": {}
+          }
+        ]
       },
       {
         "__resolveType": "Footer"
