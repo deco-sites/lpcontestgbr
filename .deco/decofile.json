@@ -377,7 +377,25 @@
         "subtitle": "What who have bought are saying",
         "testimonialCards": [
           {
-            "image": {}
+            "image": {
+              "src": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "content": "\"Não consigo expressar o quão maravilhosa é a ilustração que adquiri. Cada traço, cada detalhe, transborda paixão e  habilidade. É como se a arte ganhasse vida própria quando a observo.\"",
+            "autor": "Isabella Costa"
+          },
+          {
+            "image": {
+              "src": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=3149&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "content": "\"Estou absolutamente extasiado com a ilustração que recebi. Sua capacidade de capturar emoções e transmiti-las através de  sua arte é verdadeiramente notável. Sem dúvida, um artista  excepcional.\"",
+            "autor": "Lucas Oliveira"
+          },
+          {
+            "image": {
+              "src": "https://images.unsplash.com/photo-1564805280186-5d7056d538ca?q=80&w=2758&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "content": "\"Sua arte traz uma energia tão positiva para o meu  ambiente. Estou completamente apaixonada pela sua criatividade e  habilidade. Mal posso esperar para ver mais!\"",
+            "autor": "Sofia Mendes"
           }
         ]
       },
