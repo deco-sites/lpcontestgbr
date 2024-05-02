@@ -1,1 +1,431 @@
-{}
+{
+  "Footer": {
+    "__resolveType": "site/sections/Footer.tsx"
+  },
+  "Groovy Vibes": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#FDE5BE",
+      "primary": "#FF6502",
+      "secondary": "#FEC902",
+      "tertiary": "#FF91B2",
+      "neutral": "#9934A6",
+      "info": "#2e72d2",
+      "error": "#d82c0d",
+      "warning": "#ffc453",
+      "success": "#008060"
+    },
+    "colorScheme": "any",
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Shrikhand"
+        }
+      ]
+    }
+  },
+  "Neutral": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "mainColors": {
+      "base-100": "#ffffff",
+      "primary": "#735C3F",
+      "secondary": "#c7c7c7",
+      "tertiary": "#D9B384",
+      "neutral": "#D9CDBF",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "colorScheme": "any",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Albert Sans"
+        }
+      ]
+    },
+    "complementaryColors": {
+      "base-content": "#A6774E",
+      "primary-content": "#000000",
+      "secondary-content": "#000000",
+      "tertiary-content": "#000000",
+      "neutral-content": "#324028"
+    }
+  },
+  "Old studio": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.2s"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "300"
+            },
+            {
+              "weight": "200"
+            }
+          ],
+          "family": "Montserrat"
+        },
+        {
+          "variations": [
+            {
+              "weight": "400"
+            }
+          ],
+          "family": "Gilda Display"
+        }
+      ]
+    }
+  },
+  "Preview /sections/Footer.tsx": {
+    "__resolveType": "site/sections/Footer.tsx"
+  },
+  "Preview /sections/ItWorks.tsx": {
+    "__resolveType": "site/sections/ItWorks.tsx",
+    "name": "<p>It Works!</p>"
+  },
+  "Serene Coastline": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.8rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#cceae3",
+      "primary": "#00767F",
+      "secondary": "#9BD8E7",
+      "tertiary": "#004247",
+      "neutral": "#E2E2E2",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Shadows Into Light"
+        }
+      ]
+    },
+    "colorScheme": "any"
+  },
+  "Sunset Glow": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#FFF7D2",
+      "primary": "#A73C5A",
+      "secondary": "#FFBC55",
+      "tertiary": "#FF9900",
+      "neutral": "#4F3000",
+      "success": "#008060",
+      "warning": "#FFC453",
+      "error": "#D82C0D",
+      "info": "#2E72D2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Special Elite"
+        }
+      ]
+    },
+    "colorScheme": "any"
+  },
+  "Urban Chic": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#F8F9FD",
+      "primary": "#3141AC",
+      "secondary": "#BADFED",
+      "tertiary": "#DECD8F",
+      "neutral": "#FBF5F1",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "colorScheme": "any",
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Poiret One"
+        }
+      ]
+    }
+  },
+  "decohub": {
+    "__resolveType": "site/apps/decohub.ts"
+  },
+  "htmx": {
+    "__resolveType": "decohub/apps/htmx.ts"
+  },
+  "pages-Start-15553": {
+    "name": "Home",
+    "path": "/",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Header/FixedMenu.tsx",
+        "menus": [
+          {
+            "text": "Start",
+            "sectionId": " "
+          },
+          {
+            "text": "My work",
+            "sectionId": " "
+          },
+          {
+            "text": "Contact",
+            "sectionId": " "
+          }
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Hero/Hero.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Image/Slider.tsx",
+        "images": [
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/67fa3b53-a349-4108-b5dc-03e1982c34db",
+            "alt": "Portrait of woman"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/e39cb2c0-a62c-4eff-8d44-4ca3b2fdfa5f",
+            "alt": "Portrait of a woman"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/3ecc21d8-1845-4f8b-8d9b-a013be4c00ad",
+            "alt": "Draw of a hand"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/74cbf0b4-ab13-4ef5-9b2b-3dcb313cdacb",
+            "alt": "Portrait of a woman"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/28ee3f17-458a-4fe3-8e9e-ccb5c190029f",
+            "alt": "Old man portrait"
+          }
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Content/Bio.tsx",
+        "bioText": "I am Gabriel Antunes, a dedicated visual artist, born in Recife and raised in Manaus. Since childhood, at the age of four, drawing has been my unwavering passion. At 15, I immersed myself deeply in the world of realistic drawing, committing myself to excellence in every stroke. Each piece I conceive is meticulously crafted, from its inception to the final delivery, reflecting my commitment to quality and precision. Currently based in São Paulo, I share my art through prints, aiming to convey a unique perspective of the world to those who appreciate my artistic expression.",
+        "image": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/fca0a148-cc1a-41a4-aea4-6d897a4e20a5",
+          "alt": "Drawing of two men talking"
+        }
+      },
+      {
+        "__resolveType": "site/sections/Image/EaselGallery.tsx",
+        "images": [
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/52b7fc21-8870-4c66-b037-b6f6694df88c",
+            "alt": "statue half body"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/1d069ad2-d658-4c30-82bf-21581d27c9cf",
+            "alt": "feet"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/d0301fd7-7ba6-4210-bc17-97671db190b0",
+            "alt": "Angel"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/b6d93eb5-47de-4586-a5e1-2b181c794fa4",
+            "alt": "Eye"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/217e1d21-e33c-4d85-830e-d3ae14937a47",
+            "alt": "Child statue"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/3ec30c2a-3bd8-4283-81fa-8604a45f4d7f",
+            "alt": "Statue woman's back"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/7a3ca58a-e7c2-4142-b8db-646624175fec",
+            "alt": "Hand"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/6fbe8296-ea3f-44a8-96f7-464a1d655955",
+            "alt": "Woman"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/a919f726-b2f5-42e0-b03c-a9e8109fa4f8",
+            "alt": "Woman face"
+          }
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Content/Services.tsx",
+        "firstMenu": {
+          "title": "Art Comissions",
+          "menuText": "Comissions",
+          "content": "Turn your imagination into reality with custom commissions. Collaborate  closely to bring your vision to life, tailored to your preferences and  style, for a truly unique masterpiece that speaks to you.\nYou can request a family portrait, a couple photo, portraits of your  pets, or even a fan art of an anime, series, or movie you like.\nThe price varies according to the number of elements depicted and the size of the artwork.",
+          "image": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/5d1d38af-2e39-49f3-a3eb-35a22a2e79ee",
+            "alt": "Flower in pointillism"
+          }
+        },
+        "secondMenu": {
+          "title": "Art prints",
+          "menuText": "Prints",
+          "content": "Elevate your space with museum-quality prints of my artwork. Select from various sizes and premium materials to adorn your home or office with vibrant, high-definition reproductions of my original pieces.",
+          "image": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/9d60d9b0-b524-4455-ac28-7df1228ff51a",
+            "alt": "Realistic eye drawing"
+          }
+        },
+        "thirdMenu": {
+          "title": "Original pieces",
+          "menuText": "Original pieces",
+          "content": "Indulge in the allure of exclusive, one-of-a-kind artworks. Each original piece is a testament to my artistic journey, imbued with passion, creativity, and a touch of the extraordinary, enriching any collection.",
+          "image": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/3cc6c1bd-6a7f-4a0d-bf9b-07cecf9d2c5f",
+            "alt": "Woman bust"
+          }
+        }
+      },
+      {
+        "__resolveType": "site/sections/Content/Testimonials.tsx",
+        "title": "Testimonials",
+        "subtitle": "What who have bought are saying",
+        "testimonialCards": [
+          {
+            "image": {}
+          }
+        ]
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "site": {
+    "seo": {
+      "type": "website",
+      "jsonLDs": [],
+      "noIndexing": false,
+      "description": "Explore a variety of custom artworks and high-quality prints available for purchase. Order family portraits, original art, and more, tailored to your individual style and preferences.",
+      "titleTemplate": "Gabriel Antunes Arts",
+      "title": "Start",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/d8489214-aa22-44ce-a9aa-7c1b9f8e5177",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/f0612869-02f2-468c-bd79-04426abe33de",
+      "themeColor": "#FBF4ED",
+      "descriptionTemplate": "%s"
+    },
+    "global": [
+      {
+        "__resolveType": "htmx/sections/htmx.tsx"
+      }
+    ],
+    "routes": [
+      {
+        "__resolveType": "website/loaders/pages.ts"
+      },
+      {
+        "__resolveType": "website/loaders/redirects.ts"
+      }
+    ],
+    "caching": {
+      "directives": []
+    },
+    "__resolveType": "site/apps/site.ts",
+    "firstByteThresholdMS": true,
+    "theme": {
+      "__resolveType": "Old studio"
+    },
+    "abTesting": {
+      "replaces": [],
+      "includeScriptsToHead": {
+        "includes": []
+      }
+    }
+  }
+}
