@@ -9,12 +9,12 @@ export interface Props {
 
 function Testimonials({ id="testimonials", title, subtitle, testimonialCards }: Props) {
     return (
-        <section id={id} class="py-16 px-2 flex flex-col gap-8 bg-theme-gray">
-            <div class="flex flex-col gap-4 text-center">
-                <h2 class="text-theme-light-brown font-serif text-4xl">
+        <section id={id} class="py-16 px-2 flex flex-col lg:flex-row lg:justify-center gap-8 bg-theme-gray">
+            <div class="flex flex-col gap-4 text-center lg:max-w-md lg:text-left">
+                <h2 class="text-theme-light-brown font-serif text-4xl lg:text-6xl">
                     {title}
                 </h2>
-                <p class="text-theme-light-brown text-lg font-light">
+                <p class="text-theme-light-brown text-lg lg:text-2xl font-light">
                     {subtitle}
                 </p>
             </div>

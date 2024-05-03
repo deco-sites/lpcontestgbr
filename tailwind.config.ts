@@ -11,6 +11,15 @@ export default {
       "serif": ["Gilda Display", "Georgia"],
     },
     extend: {
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      },
       colors: {
         "theme-green": "#324028",
         "theme-dark-brown": "#402D16",

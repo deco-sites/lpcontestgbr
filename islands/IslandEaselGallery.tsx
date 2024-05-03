@@ -13,7 +13,7 @@ function IslandEaselGallery({ images }: Props) {
   const selectedImageIndex = useSignal(0)
 
   return (
-    <div class="w-full h-auto flex flex-col items-center gap-6">
+    <div class="w-full lg:max-w-[700px] h-auto flex flex-col lg:flex-row-reverse items-center gap-6">
       {/* hastes traseiras */}
       <div class="min-h-[470px] relative w-72 max-w-72">
         <div class="rounded-sm  bg-theme-light-brown w-6 h-3 absolute -top-2 left-1/2 -translate-x-1/2  z-10" />
@@ -35,14 +35,14 @@ function IslandEaselGallery({ images }: Props) {
         <div class="rounded-sm bg-theme-light-brown w-40 h-3 bottom-12 absolute right-1/2 translate-x-1/2 z-10 shadow-md" />
       </div>
 
-      <div class="w-full max-w-72 flex flex-row max-h-36 overflow-x-scroll overflow-y-hidden scrollbar-none">
+      <div class="w-full max-w-72 flex flex-row lg:flex-col max-h-36 lg:max-h-[500px] overflow-x-scroll lg:overflow-x-hidden overflow-y-hidden lg:overflow-y-scroll scrollbar-none">
         {images &&
           images.map((image, index) => (
             <div
               onClick={() => selectedImageIndex.value = index}
               class={`${
                 index == selectedImageIndex.value ? "w-16" : "w-14"
-              } min-w-14 h-32 flex justify-center items-center overflow-hidden relative`}
+              } min-w-14 lg:min-w-80 h-32 lg:h-20 flex justify-center items-center overflow-hidden relative`}
             >
               <div
                 class={`absolute w-full h-full bg-black opacity-40 ${
@@ -53,8 +53,8 @@ function IslandEaselGallery({ images }: Props) {
                 class="max-w-none"
                 src={image.src}
                 alt={image.alt || `Gabriel's drawing`}
-                width={95}
-                height={127}
+                width={367}
+                height={488}
               />
             </div>
           ))}

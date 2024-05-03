@@ -22,8 +22,10 @@ export interface Props{
 
 function Services({ firstMenu, secondMenu, thirdMenu, id="services" }: Props) {
   return (
-    <section id={id} class="bg-theme-offwhite py-16 px-2 flex flex-col gap-8 justify-center">
-      <h2 class="text-center text-4xl font-serif text-theme-light-brown">Offered Creations</h2>
+    <section id={id} class="bg-theme-offwhite py-16 lg:py-32 px-2 flex flex-col gap-8 lg:gap-10 justify-center lg:items-center">
+      <h2 class="text-center text-4xl lg:text-6xl font-serif text-theme-light-brown">
+        Offered Creations
+      </h2>
 
       <TabbedMenu menus={[firstMenu, secondMenu, thirdMenu]} />
     </section>

@@ -13,8 +13,8 @@ export interface Props {
 
 function EaselGallery({ id="easelGallery", images }: Props) {
   return (
-    <section id={id} class="bg-theme-gray py-16 px-4 flex flex-col gap-16 items-center">
-        <h2 class="w-full text-right text-5xl text-theme-light-brown font-serif">
+    <section id={id} class="bg-theme-gray py-16 px-4 flex flex-col lg:flex-row-reverse gap-16 items-center lg:justify-center">
+        <h2 class="w-full lg:max-w-96 text-right text-5xl text-theme-light-brown font-serif">
             Explore diverse images and delve into the{" "}
             <strong class="text-theme-dark-brown font-normal">captivating</strong>
             {" "}
