@@ -2,11 +2,14 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import IslandEaselGallery from "../../islands/IslandEaselGallery.tsx";
 
 export interface Props {
+  /**@description element id */
   id?: string
   images: {
     src: ImageWidget;
-    /**@title */
-    /**@default Gabriel's art */
+    /**
+     * @default Gabriel's art
+     * @title
+     * */
     alt: string;
   }[];
 }

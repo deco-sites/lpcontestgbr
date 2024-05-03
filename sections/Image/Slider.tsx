@@ -2,8 +2,13 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface SliderProps {
+    /**@description element id */
     id?: string
     images: {
+        /**
+        * @default Gabriel's art
+        * @title
+        * */
         src: ImageWidget;
         alt?: string;
     }[]

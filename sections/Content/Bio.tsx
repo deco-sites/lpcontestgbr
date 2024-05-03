@@ -2,10 +2,17 @@ import { HTMLWidget, ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface SliderProps {
+    /**
+     * @description element id
+     */
     id?: string
     bioText: HTMLWidget
     image: {
         src: ImageWidget;
+        /**
+        * @default Gabriel's art
+        * @title
+        * */
         alt?: string;
     }
 }

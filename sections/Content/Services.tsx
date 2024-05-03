@@ -2,14 +2,21 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import TabbedMenu from "site/islands/TabbedMenu.tsx";
 
 export interface MenuProps {
+  /**@description text displayed above the content */
   title: string
+  /**@description text displayed on button */
   menuText: string
-  /**@format textarea */
+  /**
+   * @format textarea
+   * @description content textarea
+   * */
   content: string
   image: {
     src: ImageWidget
-    /**@default Gabriel's art */
-    /**@title */
+    /**
+     * @default Gabriel's art
+     * @title
+     * */
     alt: string
   }
 }

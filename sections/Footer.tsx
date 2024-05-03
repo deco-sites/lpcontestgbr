@@ -1,8 +1,6 @@
-import { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
-
 export interface Props {
-  id?: string
+  /**@description element id */
+    id?: string
 }
 
 function Footer({ id="footer" }: Props) {
