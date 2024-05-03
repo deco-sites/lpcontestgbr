@@ -26,14 +26,14 @@ function Bio({ bioText, image, id="bio" }: SliderProps) {
             />
             <div class="relative w-80 h-80 m-4">
                 <Image
-                    class="w-80 h-80 lg:rounded-tl-full"
+                    class="w-80 h-80 lg:rounded-tl-[256px]"
                     src={image.src}
                     alt={image.alt}
-                    width={400}
-                    height={400}
+                    width={468}
+                    height={639}
                 />
 
-                <div class="w-full h-full absolute border lg:rounded-tl-full border-theme-dark-beige -top-2 -left-2 z-10" />
+                <div class="w-full h-full absolute border lg:rounded-tl-[256px] border-theme-dark-beige -top-2 -left-2 z-10" />
             </div>
         </section>
     )

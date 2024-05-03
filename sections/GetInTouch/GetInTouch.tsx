@@ -11,9 +11,12 @@ interface ContactOption {
 }
 
 export interface Props {
+  /**@description element id */
   id?: string
+  /**@description Title displayed on top */
   title: string
   subtitle?: string
+  /**@description Contact options */
   options?: ContactOption[]
 }
 
