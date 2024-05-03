@@ -23,7 +23,7 @@ function FixedMenu({ menus }: FixedMenuProps) {
       <ul className="flex flex-row justify-center gap-2 w-full wx-auto py-2 text-sm font-serif text-theme-dark-beige cursor-pointer">
         {menus && menus.map(menu => (
           <li>
-            <a href={`#${menu.sectionId}`}>
+            <a href={`#${menu.sectionId.trim()}`}>
               {menu.text}
             </a>
           </li>
