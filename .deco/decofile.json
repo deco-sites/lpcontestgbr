@@ -271,24 +271,25 @@
         "__resolveType": "site/sections/Image/Slider.tsx",
         "images": [
           {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/67fa3b53-a349-4108-b5dc-03e1982c34db",
-            "alt": "Portrait of woman"
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/c64ced72-c965-4e23-a8f1-8f8a6167ddcf"
           },
           {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/e39cb2c0-a62c-4eff-8d44-4ca3b2fdfa5f",
-            "alt": "Portrait of a woman"
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/3ec30c2a-3bd8-4283-81fa-8604a45f4d7f"
           },
           {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/3ecc21d8-1845-4f8b-8d9b-a013be4c00ad",
-            "alt": "Draw of a hand"
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/b6d93eb5-47de-4586-a5e1-2b181c794fa4"
           },
           {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/74cbf0b4-ab13-4ef5-9b2b-3dcb313cdacb",
-            "alt": "Portrait of a woman"
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/7a3ca58a-e7c2-4142-b8db-646624175fec"
           },
           {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/28ee3f17-458a-4fe3-8e9e-ccb5c190029f",
-            "alt": "Old man portrait"
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/d0301fd7-7ba6-4210-bc17-97671db190b0"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/52b7fc21-8870-4c66-b037-b6f6694df88c"
+          },
+          {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8438/1d069ad2-d658-4c30-82bf-21581d27c9cf"
           }
         ]
       },
