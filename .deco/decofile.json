@@ -252,15 +252,15 @@
         "menus": [
           {
             "text": "Start",
-            "sectionId": " "
+            "sectionId": " hero"
           },
           {
             "text": "My work",
-            "sectionId": " "
+            "sectionId": " easelGallery"
           },
           {
             "text": "Contact",
-            "sectionId": " "
+            "sectionId": " getInTouch"
           }
         ]
       },
