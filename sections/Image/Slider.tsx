@@ -11,15 +11,15 @@ export interface SliderProps {
 
 function Slider({ id="slider", images }: SliderProps) {
   return (
-    <div id={id} class="flex flex-row max-h-36 overflow-x-scroll overflow-y-hidden scrollbar-none">
+    <div id={id} class="flex flex-row max-h-36 lg:max-h-56 overflow-x-scroll overflow-y-hidden scrollbar-none">
         { images && images.map(image => (
-            <div class="w-72 h-36 flex justify-center items-center">
+            <div class="w-72 lg:w-96 h-36 lg:h-72 flex justify-center items-center">
                 <Image
                     class="max-w-none"
                     src={image.src}
                     alt={image.alt || `Gabriel's drawing`}
-                    width={300}
-                    height={160}
+                    width={600}
+                    height={300}
                 />
             </div>
         ))}
