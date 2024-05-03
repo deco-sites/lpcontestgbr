@@ -14,14 +14,15 @@ export interface MenuProps {
   }
 }
 export interface Props{
+  id?: string
   firstMenu: MenuProps
   secondMenu: MenuProps
   thirdMenu: MenuProps
 }
 
-function Services({ firstMenu, secondMenu, thirdMenu }: Props) {
+function Services({ firstMenu, secondMenu, thirdMenu, id="services" }: Props) {
   return (
-    <section class="bg-theme-offwhite py-16 px-2 flex flex-col gap-8 justify-center">
+    <section id={id} class="bg-theme-offwhite py-16 px-2 flex flex-col gap-8 justify-center">
       <h2 class="text-center text-4xl font-serif text-theme-light-brown">Offered Creations</h2>
 
       <TabbedMenu menus={[firstMenu, secondMenu, thirdMenu]} />

@@ -2,6 +2,7 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import IslandEaselGallery from "../../islands/IslandEaselGallery.tsx";
 
 export interface Props {
+  id?: string
   images: {
     src: ImageWidget;
     /**@title */
@@ -10,9 +11,9 @@ export interface Props {
   }[];
 }
 
-function EaselGallery({ images }: Props) {
+function EaselGallery({ id="easelGallery", images }: Props) {
   return (
-    <section class="bg-theme-gray py-16 px-4 flex flex-col gap-16 items-center">
+    <section id={id} class="bg-theme-gray py-16 px-4 flex flex-col gap-16 items-center">
         <h2 class="w-full text-right text-5xl text-theme-light-brown font-serif">
             Explore diverse images and delve into the{" "}
             <strong class="text-theme-dark-brown font-normal">captivating</strong>

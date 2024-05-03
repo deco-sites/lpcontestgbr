@@ -1,14 +1,15 @@
 import TestimonialCard, { TestimonialCardProps } from "site/components/TestimonialCard.tsx";
 
 export interface Props {
+    id?: string
     title: string
     subtitle?: string
     testimonialCards: TestimonialCardProps[]
 }
 
-function Testimonials({ title, subtitle, testimonialCards }: Props) {
+function Testimonials({ id="testimonials", title, subtitle, testimonialCards }: Props) {
     return (
-        <section class="py-16 px-2 flex flex-col gap-8 bg-theme-gray">
+        <section id={id} class="py-16 px-2 flex flex-col gap-8 bg-theme-gray">
             <div class="flex flex-col gap-4 text-center">
                 <h2 class="text-theme-light-brown font-serif text-4xl">
                     {title}

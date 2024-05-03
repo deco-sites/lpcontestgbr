@@ -2,6 +2,7 @@ import { HTMLWidget, ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface SliderProps {
+    id?: string
     bioText: HTMLWidget
     image: {
         src: ImageWidget;
@@ -9,9 +10,9 @@ export interface SliderProps {
     }
 }
 
-function Bio({ bioText, image }: SliderProps) {
+function Bio({ bioText, image, id="bio" }: SliderProps) {
     return (
-        <article class="flex flex-col items-center gap-6 px-4 py-8 z-10 ">
+        <section id={id} class="flex flex-col items-center gap-6 px-4 py-8 z-10 bg-theme-offwhite">
             <p
                 dangerouslySetInnerHTML={{ __html: bioText }}
                 class="text-theme-light-brown font-light"
@@ -27,7 +28,7 @@ function Bio({ bioText, image }: SliderProps) {
 
                 <div class="w-full h-full absolute border border-theme-dark-beige -top-2 -left-2 z-10" />
             </div>
-        </article>
+        </section>
     )
 }
 

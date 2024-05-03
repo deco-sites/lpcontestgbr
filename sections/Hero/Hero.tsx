@@ -1,6 +1,10 @@
-function Hero() {
+interface Props {
+  id?: string
+}
+
+function Hero({ id="hero" }: Props) {
   return (
-    <header class="bg-theme-green relative text-theme-gray pt-20 pb-9 pl-8 pr-4">
+    <header id={id} class="bg-theme-green relative text-theme-gray pt-20 pb-9 pl-8 pr-4">
       <span class="absolute top-8 left-2 font-serif text-[0.5rem]">
         2024
       </span>
