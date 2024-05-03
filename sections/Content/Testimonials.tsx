@@ -19,7 +19,7 @@ function Testimonials({ id="testimonials", title, subtitle, testimonialCards }: 
                 </p>
             </div>
 
-            <div class="flex gap-6 overflow-x-scroll">
+            <div class="flex gap-6 overflow-x-scroll scrollbar-none">
                 {testimonialCards && testimonialCards.map(card => (
                     <TestimonialCard autor={card.autor} content={card.content} image={card.image} />
                 ))}

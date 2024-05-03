@@ -19,14 +19,14 @@ export interface Props {
 
 function GetInTouch({ id="getInTouch", title, subtitle, options }: Props) {
   return (
-    <section id={id} class="flex flex-col justify-center items-center px-2 py-16 rounded-b-3xl bg-theme-offwhite">
-      <div class="flex flex-col gap-6 border border-theme-gray rounded-sm px-2 py-9">
+    <section id={id} class="flex flex-col justify-center items-center px-2 lg:px-6 py-16 lg:py-20 rounded-b-3xl bg-theme-offwhite">
+      <div class="flex flex-col lg:items-center gap-6 border border-theme-gray rounded-sm px-2 py-9 lg:w-full">
 
         <h2 class="font-serif text-4xl text-theme-dark-brown text-center">
           {title}
         </h2>
 
-        <p class="text-2xl text-theme-light-brown font-light text-center">
+        <p class="text-2xl lg:max-w-2xl text-theme-light-brown font-light text-center">
           {subtitle}
         </p>
 
