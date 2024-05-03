@@ -22,11 +22,11 @@ function Slider({ id="slider", images }: SliderProps) {
             { images && images.map(image => (
                 <div class="min-w-72 lg:min-w-[600px] h-36 lg:h-[800px] flex justify-center items-center">
                     <Image
-                        class="w-72 lg:w-[600px] h-96 lg:h-[800px] lg:-translate-y-1/3"
+                        class="w-72 lg:min-w-[600px] h-96 lg:h-[800px] lg:-translate-y-1/3"
                         src={image.src}
                         alt={image.alt || `Gabriel's drawing`}
                         width={600}
-                        height={300}
+                        height={800}
                         preload
                         loading="eager"
                         fetchPriority="high"
