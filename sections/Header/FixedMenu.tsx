@@ -20,10 +20,12 @@ export function ErrorFallback({ error }: { error?: Error }) {
 function FixedMenu({ menus }: FixedMenuProps) {
   return (
     <nav class="fixed w-full z-50">
-      <ul className="flex flex-row justify-center gap-2 w-full wx-auto py-2 text-sm font-serif text-theme-dark-beige cursor-pointer">
+      <ul className="flex flex-row max-w-72 mx-auto rounded-lg bg-theme-transparent-black justify-center gap-2 lg:gap-4 w-full wx-auto px-4 py-2 text-sm lg:text-base font-serif text-theme-gray mt-3 cursor-pointer">
         {menus && menus.map(menu => (
           <li>
-            <a href={`#${menu.sectionId.trim()}`}>
+            <a  class="hover:text-theme-light-beige transition-all"
+                href={`#${menu.sectionId.trim()}`}
+            >
               {menu.text}
             </a>
           </li>

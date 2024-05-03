@@ -30,7 +30,8 @@ export default {
         "theme-offwhite": "#FBF4ED",
         "theme-white": '#FFFAF4',
         "theme-easel-border": "#634B3D",
-        "theme-deco-green": "#02F67C"
+        "theme-deco-green": "#02F67C",
+        "theme-transparent-black": "rgba(0, 0, 0, 0.4)"
       },
     },
   },
